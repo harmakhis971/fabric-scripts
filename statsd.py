@@ -1,5 +1,6 @@
 import re
-from fabric.api import run, task
+
+from fabric.tasks import task
 
 
 @task

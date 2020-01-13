@@ -1,9 +1,6 @@
 import random
 import re
 
-from fabric.api import env, cd, sudo
-
-
 def use_random_host(role):
     """Use a randomly chosen host from the given role"""
     hosts = env.roledefs[role]()
